@@ -1,7 +1,7 @@
 import React from 'react';
 import { MapContainer, useMap, useMapEvent } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
-import customLayoutConfig from './config/floorPlanConfig.json';
+import customLayoutConfig from './config/floor-plan-data.json';
 import RoomDropdown from './components/RoomDropdown';
 import RoomPolygon from './components/RoomPolygon';
 import CorridorPolygon from './components/CorridorPolygon';
