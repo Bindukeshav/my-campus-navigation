@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { MapContainer, TileLayer, useMap, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
-import mapConfig from './config/mapConfig.json';
+import mapConfig from './config/map-data.json';
 import L from 'leaflet';
 import 'leaflet-routing-machine/dist/leaflet-routing-machine.js';
 import CustomLayoutMap from './CustomLayoutMap';
